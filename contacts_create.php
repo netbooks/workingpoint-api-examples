@@ -13,7 +13,7 @@ $data = array("contact"=>array(
 ));
 $data = json_encode($data);
 
-$endpoint = 'http://[subdomain].workingpoint.com/api/contacts'; // your subdomain
+$endpoint = 'https://[subdomain].workingpoint.com/api/contacts'; // your subdomain
 $api_token = 'XXXXXX'; // your api_token
 $ch = curl_init($endpoint);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
